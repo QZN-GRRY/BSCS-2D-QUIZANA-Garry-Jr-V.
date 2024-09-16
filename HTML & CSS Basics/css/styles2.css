@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url("https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fnphrgz8yfnjylrwfr0yl.png");
+}
+h1 {
+    color:whitesmoke;
+    text-align: center;
+    font-style: 'Times New Roman';
+}
+label {
+    color:whitesmoke;
+    text-align: center;
+    font-style: 'Times New Roman';
+    font-size: 18px;
+}
+.reg {
+    margin: auto;
+    width: 50%;
+    background-color: rgb(0,0,0,0.5);
+    padding: 15px;
+}
+.buttons{
+    padding: 20px;
+    padding-bottom: 18px;
+}
+#signup{
+    width: 250px;
+    outline: 0;
+    padding: 5px;
+    font-size: 18px;
+    font-style: 'Times New Roman';
+    border: 3px solid lightgray;
+}
+#signup:hover{
+    background-color: gray;
+}
+#sign{
+    width: 250px;
+    outline: 0;
+    padding: 5px;
+    float: right;
+    font-size: 18px;
+    font-style: 'Times New Roman';
+    border: 3px solid lightgray;
+}
+#sign:hover{
+    background-color: gray;
+}
+#reg {
+    margin: auto;
+    width: 50%;
+}
+#name{
+    width: 300px;
+    padding: 5px;
+    border: none;
+    outline: 0;
+    border-radius: 5px;
+    border: 3px solid lightgray;
+}
+#text{
+    background: none;
+    border:  3px solid lightgray;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+#sub{
+    width: 300px;
+    padding: 5px;
+    border: none;
+    outline: 0;
+    border: 3px solid lightgray;
+    background-color: whitesmoke;
+    font-size: 18px;
+    font-style: 'Times New Roman';
+}
+#sub:hover{
+    background-color: gray;
+}
